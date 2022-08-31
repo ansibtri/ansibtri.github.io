@@ -1,0 +1,22 @@
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 3rem 0 3rem;
+    display: flex;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar{
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    .navbar{
+        padding: 2rem;
+        display: block;
+    }
+    .navbar p{
+        text-align: center;
+        margin: 1rem;
+    }
+}

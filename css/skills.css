@@ -1,0 +1,18 @@
+@media screen and (max-width: 600px) {
+    .page{
+        margin-bottom: 4rem;
+    }
+    .topbar{
+        margin: 0;
+    }
+    .body-hidden{
+        overflow: scroll;
+    }
+    .page--body ul{
+        display: block;
+        bottom: 5rem;
+    }
+    .page--body ul li{
+        margin: 2.3rem 0;
+    }
+}

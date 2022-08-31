@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+:root {
+    --clr-primary: #301551;
+    --clr-secondary: #492B76;
+    --clr-info: #ED8A0A;
+    --clr-success: #f6d912;
+    --clr-white: #ffffff;
+    --clr-unfocus: #c4c4c4;
+    --clr-secondary-light: #492b76a4;
+    --clr-black: #000000;
+}
+
+html {
+    font-size: 17px;
+}
+
+body {
+    scroll-behavior: smooth;
+    height: 70vh;
+    margin: 0;
+    padding: 0;
+}
+.body-hidden{
+    overflow: hidden;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--clr-white);
+}
+
+/* text features  */
+h1 {
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+}
+
+h3 {
+    font-size: 2rem;
+    letter-spacing: 2.5px;
+}
+
+h4 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+h5 {
+    font-size: 1.5rem;
+    letter-spacing: 1.8px;
+}
+
+h6 {
+    font-size: 1.3rem;
+    letter-spacing: 1.4px;
+}
+
+p {
+    font-size: 1rem;
+    letter-spacing: 1.3px;
+}
+
+footer {
+    margin-top: auto;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: .8fr 4fr;
+    height: 100vh;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    justify-content: space-around;
+    background: transparent;
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bgimg {
+        background:linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(19, 18, 19, 0.6)), url('./../assets/images/20201116_102227.jpg') top  / cover no-repeat fixed;
+        display:block;
+    }
+
+}
+
+
+
+/* some less written css rules for styling this site  */

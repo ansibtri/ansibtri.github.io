@@ -1,0 +1,15 @@
+@media screen and (max-width: 600px) {
+    .description h4{
+        font-size: 1.5rem;
+        margin: 1rem 0;
+        letter-spacing: 1.4px;
+    }
+    .description p{
+        letter-spacing: 1.2px;
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+    .tabs--list{
+        margin-bottom: 4rem;
+    }
+}

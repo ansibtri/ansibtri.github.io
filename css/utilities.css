@@ -1,0 +1,324 @@
+.d-flex{
+    display:flex;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.flex-start{
+    justify-content: flex-start;
+    align-items: center;
+}
+.flex-space-between{
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-space-around{
+    justify-content: space-around;
+    align-items: center;
+}
+/* flex for vertical or columns */
+.flex-v-start{
+    justify-content: center;
+    align-items: flex-start;
+}
+.flex-column{
+    flex-direction: column;
+}
+/* grid */
+.d-grid{
+    display:grid;
+}
+.two-grid{
+    grid-template-columns: repeat(2, 1fr);
+}
+.gap-2{
+    gap: 2rem;
+}
+.gap-3{
+    gap: 3rem;
+}
+.gap-4{
+    gap: 4rem;
+}
+.gap-5{
+    gap: 5rem;
+}
+.gap-6{
+    gap: 6rem;
+}
+/* for button elements */
+.btn{
+    border:none;
+    font-size: 1.4rem;
+    opacity: 1;
+    padding: .3rem 1.3rem;
+    border-radius: 4px;
+}
+.btn-primary{
+    background-color: var(--clr-primary);
+}
+.btn-secondary{
+    background-color: var(--clr-secondary);
+}
+.btn-success{
+    background-color: var(--clr-success);
+}
+.btn-info{
+    background-color: var(--clr-info);
+}
+.btn-transparent{
+    background-color: transparent;
+}
+.btn-nospace{
+    padding:0;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+/* margin  */
+
+/* margin for all sides  */
+.m-1{
+    margin: .5rem;
+}
+.m-2{
+    margin: 1rem;
+}
+.m-3{
+    margin: 1.5rem;
+}
+.m-4{
+    margin: 2rem;
+}
+.m-5{
+    margin: 2.5rem;
+}
+.m-6{
+    margin: 3rem;
+}
+/* margin for y axis  */
+.my-1{
+    margin: .5rem 0;
+}
+.my-2{
+    margin: 1rem 0;
+}
+.my-3{
+    margin: 1.5rem 0;
+}
+.my-4{
+    margin: 2rem 0;
+}
+.my-5{
+    margin: 2.5rem 0;
+}
+.my-6{
+    margin: 3rem 0;
+}
+
+/* margin for x axis  */
+.mx-1{
+    margin: 0 .5rem;
+}
+.mx-2{
+    margin:0 1rem;
+}
+.mx-3{
+    margin:0 1.5rem;
+}
+.mx-4{
+    margin:0 2rem;
+}
+.mx-5{
+    margin:0 2.5rem;
+}
+.mx-6{
+    margin:0 3rem;
+}
+
+.mt-1{
+    margin-top: 1rem;
+}
+.mt-2{
+    margin-top: 2rem;
+}
+.mt-3{
+    margin-top: 2.5rem;
+}
+.mt-4{
+    margin-top: 3rem;
+}
+.mt-5{
+    margin-top: 3.5rem;
+}
+.mt-6{
+    margin-top: 4rem;
+}
+
+/* padding  */
+.p-1{
+    padding: .5rem;
+}
+.p-2{
+    padding: 1rem;
+}
+.p-3{
+    padding: 1.5rem;
+}
+.p-4{
+    padding: 2rem;
+}
+.p-5{
+    padding: 2.5rem;
+}
+.p-6{
+    padding: 3rem;
+}
+/* padding for y axis  */
+.py-1{
+    padding: .5rem 0;
+}
+.py-2{
+    padding: 1rem 0;
+}
+.py-3{
+    padding: 1.5rem 0;
+}
+.py-4{
+    padding: 2rem 0;
+}
+.py-5{
+    padding: 2.5rem 0;
+}
+.py-6{
+    padding: 3rem 0;
+}
+
+.pt-1{
+    padding-top: 1rem;
+}
+.pt-2{
+    padding-top: 2rem;
+}
+.pt-3{
+    padding-top: 2.5rem;
+}
+.pt-4{
+    padding-top: 3rem;
+}
+.pt-5{
+    padding-top: 3.5rem;
+}
+.pt-6{
+    padding-top: 4rem;
+}
+/* text features  */
+.text-s-0{
+    font-size: 1rem;
+}
+.text-s-1{
+    font-size: 1.5rem;
+}
+.text-s-2{
+    font-size: 2rem;
+}
+.text-s-3{
+    font-size: 3rem;
+}
+.text-s-4{
+    font-size: 4rem;
+}
+
+.sm-text{
+    font-size: .8rem;
+}
+
+/* font weight features  */
+.text-bold{
+    font-weight: bold;
+}
+.text-bolder{
+    font-weight: bolder;
+}
+.text-lighter{
+    font-weight: lighter;
+}
+.text-center{
+    text-align: center;
+}
+/* numerical font weights  */
+.text-200{
+    font-weight: 200;
+}
+.text-300{
+    font-weight: 300;
+}
+.text-400{
+    font-weight: 400;
+}
+.text-500{
+    font-weight: 500;
+}
+.text-600{
+    font-weight: 600;
+}
+.text-700{
+    font-weight: 700;
+}
+.text-800{
+    font-weight: 800;
+}
+.text-900{
+    font-weight: 900;
+}
+
+
+
+/* text color specification */
+.text-primary{
+    color:var(--clr-primary);
+}
+.text-secondary{
+    color:var(--clr-secondary);
+}
+.text-success{
+    color:var(--clr-success);
+}
+.text-info{
+    color:var(--clr-info);
+}
+.text-unfocus{
+    color: var(--clr-unfocus);
+}
+.text-white{
+    color: var(--clr-white);
+}
+.text-black{
+    color: var(--clr-black);
+}
+/* for social links */
+.fa-twitter:hover{
+    color: #00acee;
+}
+.fa-github:hover{
+    color:#171515;
+}
+.fa-linkedin-in:hover{
+    color:  #0e76a8;
+}
+.fa-facebook-:hover{
+    color: #3b5998;
+}
+
+@media screen and (max-width: 800px) {
+    .btn{
+        border:none;
+        font-size: 1.4rem;
+        opacity: 1;
+        padding: .2rem 1rem;
+        border-radius: 4px;
+    }
+}
